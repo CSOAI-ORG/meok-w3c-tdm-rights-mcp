@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-w3c-tdm-rights-mcp",
+  "version": "1.0.0",
+  "description": "MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs.",
+  "repository": { "url": "https://github.com/CSOAI-ORG/meok-w3c-tdm-rights-mcp", "source": "github" },
+  "packages": [{ "registryType": "pypi", "identifier": "meok-w3c-tdm-rights-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
+  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/governance/tdm-rights" }]
+}

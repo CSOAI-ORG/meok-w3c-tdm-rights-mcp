@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-w3c-tdm-rights-mcp"
+version = "1.0.0"
+description = "MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "tdm", "cdsm", "article-4-3", "ai-training", "opt-out", "c2pa", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/governance"
+Repository = "https://github.com/CSOAI-ORG/meok-w3c-tdm-rights-mcp"
+
+[project.scripts]
+meok-w3c-tdm-rights-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
