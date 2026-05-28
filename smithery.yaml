@@ -1,0 +1,19 @@
+name: meok-w3c-tdm-rights-mcp
+description: "> ## 🧱 Part of the MEOK Governance Substrate (£499/mo) + Defence (£4,990/mo)"
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/MEOK-AI-Labs/meok-w3c-tdm-rights-mcp
+license: MIT
+categories:
+  - compliance
+  - ai
+  - governance
+
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+    - fastapi
+    - uvicorn
+    - mcp

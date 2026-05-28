@@ -1,0 +1,23 @@
+# meok-w3c-tdm-rights-mcp
+
+> MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- issue_tdm_reservation
+- scan_url_for_reservation
+- verify_c2pa_do_not_train
+- check_robots_txt
+- generate_compliant_scraper_config
+- sign_training_scan
+- list_known_ai_agents
+
+## Install
+```
+pip install meok-w3c-tdm-rights-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-w3c-tdm-rights-mcp/
+- Docs: https://meok.ai

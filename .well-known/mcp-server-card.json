@@ -1,0 +1,34 @@
+{
+  "name": "meok-w3c-tdm-rights-mcp",
+  "title": "Meok W3C Tdm Rights Mcp",
+  "description": "MEOK W3C TDM Rights MCP \u2014 EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "issue_tdm_reservation"
+    },
+    {
+      "name": "scan_url_for_reservation"
+    },
+    {
+      "name": "verify_c2pa_do_not_train"
+    },
+    {
+      "name": "check_robots_txt"
+    },
+    {
+      "name": "generate_compliant_scraper_config"
+    },
+    {
+      "name": "sign_training_scan"
+    },
+    {
+      "name": "list_known_ai_agents"
+    }
+  ]
+}
