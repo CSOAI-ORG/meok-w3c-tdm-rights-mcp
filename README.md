@@ -1,74 +1,78 @@
-# MEOK W3C TDM Rights MCP
+# Meok W3C Tdm Rights MCP
 
-> ## 🧱 Part of the MEOK Governance Substrate (£499/mo) + Defence (£4,990/mo)
-> See [meok.ai/governance](https://meok.ai/governance).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_w3c_tdm_rights_mcp/)
 
-# EU CDSM Article 4(3) — TDM opt-out + liability shield for AI training
+> EU CDSM Art 4(3) TDM rights MCP - issues + scans HTTP/HTML/robots/C2PA reservation signals + sign...
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-w3c-tdm-rights-mcp -->
+EU CDSM Art 4(3) TDM rights MCP - issues + scans HTTP/HTML/robots/C2PA reservation signals + signs training-run liability shield. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/meok-w3c-tdm-rights-mcp)](https://pypi.org/project/meok-w3c-tdm-rights-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-EU Directive 2019/790 (CDSM) **Article 4(3)** gives rightsholders the right to **RESERVE** their works against AI / TDM training. The reservation must be "machine-readable" for online content.
+```bash
+# Install via pip
+pip install meok_w3c_tdm_rights_mcp
 
-Court cases are landing: Hamburg + Munich rulings against OpenAI / Meta / Anthropic in 2025. **Every AI training operation in the EU after 4 June 2024 needs a defensible scan-+-respect process.**
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-w3c-tdm-rights-mcp --client claude
+```
 
-This MCP is the first-mover. **Nobody else has shipped an MCP for it.**
+## ✨ Features
 
-## The 4 machine-readable mechanisms
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-1. **HTTP headers** — `Tdm-Reservation: 1` + `Tdm-Policy: <url>`
-2. **HTML meta tags** — `<meta name="tdm-reservation" content="1">`
-3. **robots.txt** — `User-agent: GPTBot\nDisallow: /` patterns (20+ AI agents catalogued)
-4. **C2PA assertion** — `c2pa.training-mining` with `use: notAllowed`
+## 📖 Documentation
 
-## Tools
+- [Full Documentation](https://docs.meok.ai/meok-w3c-tdm-rights-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-| Tool | Purpose |
-|---|---|
-| `issue_tdm_reservation(work_id, rightsholder_did, mechanism, ...)` | Issue + emit all 4 expression formats |
-| `scan_url_for_reservation(url)` | Triple-scan: HTTP + meta + robots.txt |
-| `verify_c2pa_do_not_train(asset_meta)` | C2PA assertion check |
-| `check_robots_txt(domain, agent_name)` | Bot-specific allow/disallow |
-| `generate_compliant_scraper_config()` | Config blob for your training pipeline |
-| `sign_training_scan(scan_results, training_run_id)` | Liability-shield attestation |
-| `list_known_ai_agents()` | 20+ AI user-agents catalogued |
+## 🛡️ Compliance
 
-## Why this is enterprise-critical
+This MCP server is built with **EU AI Act compliance** built-in:
 
-Two pictures of the same risk:
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-- **For rightsholders** — you NEED machine-readable Article 4(3) signals on your site or you've waived TDM-opt-out rights. This MCP issues them in 4 formats simultaneously.
-- **For AI training operators** — you NEED a defensible scan-+-respect process or you'll lose every preliminary injunction in the next round of EU cases. This MCP gives you a per-run signed attestation as your audit-defensible liability shield.
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## Sister MCPs
+## 🏢 Enterprise
 
-- `meok-c2pa-durable-mcp` — C2PA 2.2 Content Credentials (carries TDM assertions)
-- `agent-content-watermark-mcp` — EU AI Act Article 50 watermarking (provider-side companion)
-- `agent-data-residency-mcp` — GDPR Chapter V transfer guard
-- `bias-detection-mcp` — Article 10 fairness metrics
+Need custom development, SLA guarantees, or white-label deployment?
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-## Pricing
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| Governance Substrate | £499/mo |
-| A2A Substrate | £999/mo |
-| **Defence** (training-pipeline scale) | **£4,990/mo** |
+## 🤝 Part of the MEOK Ecosystem
 
-Buy: https://meok.ai/governance
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-## Wire it up — full stack
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-Pair this with the MEOK chain. See [meok.ai/mcp-stack](https://meok.ai/mcp-stack).
+## 📜 License
 
-## Licence
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
