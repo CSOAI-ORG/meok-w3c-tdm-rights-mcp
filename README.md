@@ -1,4 +1,7 @@
 # Meok W3C Tdm Rights MCP
+mcp-name: io.github.CSOAI-ORG/meok-w3c-tdm-rights-mcp
+
+# MEOK W3C TDM Rights MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -118,3 +121,4 @@ Once configured, ask your assistant, for example:
 - "Use `issue_tdm_reservation` to …"
 - "Use `scan_url_for_reservation` to …"
 - "Use `verify_c2pa_do_not_train` to …"
+<!-- BUY-LADDER:END -->

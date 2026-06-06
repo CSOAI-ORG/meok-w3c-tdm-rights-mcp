@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Buy Pro: https://www.csoai.org/checkout
+
 MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) opt-out
 ====================================================================
 
