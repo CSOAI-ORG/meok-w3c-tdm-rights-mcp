@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-w3c-tdm-rights-mcp",
+    "description": "MEOK W3C TDM Rights MCP \u2014 EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-w3c-tdm-rights-mcp"
+      }
+    ],
+    "capabilities": [
+      "issue_tdm_reservation",
+      "scan_url_for_reservation",
+      "verify_c2pa_do_not_train",
+      "check_robots_txt",
+      "generate_compliant_scraper_config",
+      "sign_training_scan",
+      "list_known_ai_agents"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "meok-w3c-tdm-rights-mcp",
+  "description": "MEOK W3C TDM Rights MCP \u2014 EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans",
+  "url": "https://proofof.ai/scorecard/meok-w3c-tdm-rights-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "issue_tdm_reservation",
+      "name": "Issue Tdm Reservation",
+      "description": "issue_tdm_reservation via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "scan_url_for_reservation",
+      "name": "Scan Url For Reservation",
+      "description": "scan_url_for_reservation via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "verify_c2pa_do_not_train",
+      "name": "Verify C2Pa Do Not Train",
+      "description": "verify_c2pa_do_not_train via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_robots_txt",
+      "name": "Check Robots Txt",
+      "description": "check_robots_txt via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_compliant_scraper_config",
+      "name": "Generate Compliant Scraper Config",
+      "description": "generate_compliant_scraper_config via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_training_scan",
+      "name": "Sign Training Scan",
+      "description": "sign_training_scan via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_known_ai_agents",
+      "name": "List Known Ai Agents",
+      "description": "list_known_ai_agents via meok-w3c-tdm-rights-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
