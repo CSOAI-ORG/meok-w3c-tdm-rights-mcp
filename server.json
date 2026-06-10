@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-w3c-tdm-rights-mcp",
-  "version": "1.0.0",
-  "description": "MEOK W3C TDM Rights MCP \u2014 EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans",
+  "version": "1.0.4",
+  "description": "MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-w3c-tdm-rights-mcp",
     "source": "github"
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "meok-w3c-tdm-rights-mcp",
-      "version": "1.0.0",
+      "version": "1.0.4",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
