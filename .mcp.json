@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-w3c-tdm-rights-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-w3c-tdm-rights-mcp"
+      ]
+    }
+  }
+}
