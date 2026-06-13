@@ -1,0 +1,151 @@
+{
+  "name": "Meok W3C Tdm Rights Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-w3c-tdm-rights-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "issue_tdm_reservation",
+      "name": "Issue Tdm Reservation",
+      "description": "Issue Tdm Reservation — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "scan_url_for_reservation",
+      "name": "Scan Url For Reservation",
+      "description": "Scan Url For Reservation — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "verify_c2pa_do_not_train",
+      "name": "Verify C2Pa Do Not Train",
+      "description": "Verify C2Pa Do Not Train — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_robots_txt",
+      "name": "Check Robots Txt",
+      "description": "Check Robots Txt — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_compliant_scraper_config",
+      "name": "Generate Compliant Scraper Config",
+      "description": "Generate Compliant Scraper Config — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_training_scan",
+      "name": "Sign Training Scan",
+      "description": "Sign Training Scan — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_known_ai_agents",
+      "name": "List Known Ai Agents",
+      "description": "List Known Ai Agents — a tool of the meok-w3c-tdm-rights-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-w3c-tdm-rights-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
