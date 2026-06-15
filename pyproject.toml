@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-w3c-tdm-rights-mcp"
-version = "1.0.4"
+version = "1.0.5"
 description = "MEOK W3C TDM Rights MCP — EU CDSM Directive Article 4(3) Text + Data Mining opt-out. Issues + scans HTTP/HTML/robots.txt/C2PA reservation signals. Liability shield for AI training pipelines. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -28,3 +28,22 @@ meok-w3c-tdm-rights-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
